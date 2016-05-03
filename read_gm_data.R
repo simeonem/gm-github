@@ -4,6 +4,7 @@ gdp <- rbind(gdp, new)
 
 #gdp$gdp <- gdp$gdpPercap * gdp$pop
 
+# Simeone changed the formula
 gdp['gdp'] <- gdp$gdpPercap * gdp$pop
 
 keep <- c('country','year','lifeExp','gdp')
