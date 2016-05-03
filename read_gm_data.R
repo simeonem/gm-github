@@ -4,7 +4,8 @@ gdp <- rbind(gdp, new)
 
 #gdp$gdp <- gdp$gdpPercap * gdp$pop
 
-gdp['gdp'] <- gdp$gdpPercap * gdp$pop
+#calculating gdp by qeoakes
+gdp$gdp <- gdp$gdpPercap * gdp$pop
 
 keep <- c('country','year','lifeExp','gdp')
 gdp <- gdp[keep]
